@@ -1,0 +1,176 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* AndroidProjekt.apk
+* Statistics.jpg
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\example\
+* doc\com\example\androidprojekt\
+* doc\com\example\androidprojekt\Aufgabe.html
+* doc\com\example\androidprojekt\AufgabeDateComparator.html
+* doc\com\example\androidprojekt\AufgabeErstellen.html
+* doc\com\example\androidprojekt\AufgabePriority_ASC_Comparator.html
+* doc\com\example\androidprojekt\AufgabePriority_DESC_Comparator.html
+* doc\com\example\androidprojekt\BuildConfig.html
+* doc\com\example\androidprojekt\CustomSpinnerAdapter.html
+* doc\com\example\androidprojekt\DateTimePickerFragment.html
+* doc\com\example\androidprojekt\Detail.html
+* doc\com\example\androidprojekt\ForgotPWActivity.html
+* doc\com\example\androidprojekt\HistoryActivity.AufgabeAdapter.html
+* doc\com\example\androidprojekt\HistoryActivity.html
+* doc\com\example\androidprojekt\HistoryOpenHandler.html
+* doc\com\example\androidprojekt\MainActivity.AufgabeAdapter.html
+* doc\com\example\androidprojekt\MainActivity.DatePickerFragment.html
+* doc\com\example\androidprojekt\MainActivity.html
+* doc\com\example\androidprojekt\NotificationService.html
+* doc\com\example\androidprojekt\OurAlarmManager.html
+* doc\com\example\androidprojekt\OurOpenHandler.html
+* doc\com\example\androidprojekt\ParseApplication.html
+* doc\com\example\androidprojekt\R.array.html
+* doc\com\example\androidprojekt\R.attr.html
+* doc\com\example\androidprojekt\R.dimen.html
+* doc\com\example\androidprojekt\R.drawable.html
+* doc\com\example\androidprojekt\R.html
+* doc\com\example\androidprojekt\R.id.html
+* doc\com\example\androidprojekt\R.layout.html
+* doc\com\example\androidprojekt\R.menu.html
+* doc\com\example\androidprojekt\R.mipmap.html
+* doc\com\example\androidprojekt\R.string.html
+* doc\com\example\androidprojekt\R.style.html
+* doc\com\example\androidprojekt\R.xml.html
+* doc\com\example\androidprojekt\SignUpActivity.html
+* doc\com\example\androidprojekt\StatisticsActivity.DatePickerFragment.html
+* doc\com\example\androidprojekt\StatisticsActivity.html
+* doc\com\example\androidprojekt\UnlockActivity.html
+* doc\com\example\androidprojekt\class-use\
+* doc\com\example\androidprojekt\class-use\Aufgabe.html
+* doc\com\example\androidprojekt\class-use\AufgabeDateComparator.html
+* doc\com\example\androidprojekt\class-use\AufgabeErstellen.html
+* doc\com\example\androidprojekt\class-use\AufgabePriority_ASC_Comparator.html
+* doc\com\example\androidprojekt\class-use\AufgabePriority_DESC_Comparator.html
+* doc\com\example\androidprojekt\class-use\BuildConfig.html
+* doc\com\example\androidprojekt\class-use\CustomSpinnerAdapter.html
+* doc\com\example\androidprojekt\class-use\DateTimePickerFragment.html
+* doc\com\example\androidprojekt\class-use\Detail.html
+* doc\com\example\androidprojekt\class-use\ForgotPWActivity.html
+* doc\com\example\androidprojekt\class-use\HistoryActivity.AufgabeAdapter.html
+* doc\com\example\androidprojekt\class-use\HistoryActivity.html
+* doc\com\example\androidprojekt\class-use\HistoryOpenHandler.html
+* doc\com\example\androidprojekt\class-use\MainActivity.AufgabeAdapter.html
+* doc\com\example\androidprojekt\class-use\MainActivity.DatePickerFragment.html
+* doc\com\example\androidprojekt\class-use\MainActivity.html
+* doc\com\example\androidprojekt\class-use\NotificationService.html
+* doc\com\example\androidprojekt\class-use\OurAlarmManager.html
+* doc\com\example\androidprojekt\class-use\OurOpenHandler.html
+* doc\com\example\androidprojekt\class-use\ParseApplication.html
+* doc\com\example\androidprojekt\class-use\R.array.html
+* doc\com\example\androidprojekt\class-use\R.attr.html
+* doc\com\example\androidprojekt\class-use\R.dimen.html
+* doc\com\example\androidprojekt\class-use\R.drawable.html
+* doc\com\example\androidprojekt\class-use\R.html
+* doc\com\example\androidprojekt\class-use\R.id.html
+* doc\com\example\androidprojekt\class-use\R.layout.html
+* doc\com\example\androidprojekt\class-use\R.menu.html
+* doc\com\example\androidprojekt\class-use\R.mipmap.html
+* doc\com\example\androidprojekt\class-use\R.string.html
+* doc\com\example\androidprojekt\class-use\R.style.html
+* doc\com\example\androidprojekt\class-use\R.xml.html
+* doc\com\example\androidprojekt\class-use\SignUpActivity.html
+* doc\com\example\androidprojekt\class-use\StatisticsActivity.DatePickerFragment.html
+* doc\com\example\androidprojekt\class-use\StatisticsActivity.html
+* doc\com\example\androidprojekt\class-use\UnlockActivity.html
+* doc\com\example\androidprojekt\package-frame.html
+* doc\com\example\androidprojekt\package-summary.html
+* doc\com\example\androidprojekt\package-tree.html
+* doc\com\example\androidprojekt\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-21.html
+* doc\index-files\index-22.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\script.js
+* doc\stylesheet.css
+* fisher_fishing_original.png
+* ic_action_done.png
+* ic_launcher-web.png
+* ic_launcher.psd
+* keystore_ABCSTWIP2
+* proguard-project.txt
+* shadow2.PNG
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.2.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\bolts-android-1.1.4.jar => app\libs\bolts-android-1.1.4.jar
+* libs\Parse-1.8.0.jar => app\libs\Parse-1.8.0.jar
+* libs\ParseCrashReporting-1.8.0.jar => app\libs\ParseCrashReporting-1.8.0.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* normal_big.PNG => normal_big.png
+* notepad_hole.PNG => notepad_hole.png
+* notepaper.PNG => notepaper.png
+* surface.PNG => surface.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

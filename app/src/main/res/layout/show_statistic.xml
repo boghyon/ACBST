@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#637a91"
+    android:paddingTop="45dp" >
+
+    <TextView
+        android:id="@+id/howManyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/how_many_tasks"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/datePickLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/howManyTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" >
+
+        <Button
+            android:id="@+id/bStatistikFrom"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pick_date"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/untilTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:text="@string/until"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bStatistikTo"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_date"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/questionMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bStatistikShow"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePickLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/ask"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/fisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seaLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fisher_fishing" />
+
+    <RelativeLayout
+        android:id="@+id/seaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#89ffd1" >
+
+        <ImageView
+            android:id="@+id/shadowListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:rotation="180"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow_dark" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/surface" />
+
+    <ImageView
+        android:id="@+id/fished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/fisher"
+        android:layout_alignTop="@+id/fisher"
+        android:layout_marginRight="170dp"
+        android:src="@drawable/fished_nothing_important" />
+
+</RelativeLayout>

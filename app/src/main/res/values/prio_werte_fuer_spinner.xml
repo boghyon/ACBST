@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_auswahl">
+        <item>Normal</item>
+        <item>Wichtig</item>
+        <item>Sehr wichtig</item>
+    </string-array>
+</resources>

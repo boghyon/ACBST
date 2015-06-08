@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBeschreibung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/tvTitel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/imagePrioritaet"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/imagePrioritaet"
+        android:ellipsize="end"
+        android:maxEms="18"
+        android:maxLines="1"
+        android:text="Test Test Test"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/alarmSetImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvDate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9dp"
+        android:src="@drawable/ic_action_action_alarm_on" />
+
+    <ImageView
+        android:id="@+id/imagePrioritaet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        android:src="@drawable/drei" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTitel"
+        android:layout_below="@+id/tvTitel"
+        android:text="TextView"
+        android:textSize="12sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/layout/listview_item.xml -->

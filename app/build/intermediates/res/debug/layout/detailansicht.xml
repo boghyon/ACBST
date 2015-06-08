@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfa9c"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtDetail_Titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:hint="@string/schlagworte"
+        android:inputType="textNoSuggestions|textLongMessage|textCapCharacters"
+        android:maxLength="38"
+        android:maxLines="1" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDetail_Beschreibung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spDetail_Prio"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:autoLink="web|email|map"
+        android:gravity="top|start"
+        android:hint="@string/beschreibung"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:linksClickable="true"
+        android:maxLength="200"
+        android:maxLines="7"
+        android:minLines="3"
+        android:singleLine="true"
+        android:textSize="16sp" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spDetail_Prio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDetail_Titel"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" />
+
+    <RelativeLayout
+        android:id="@+id/phoneLayoutDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDetail_Beschreibung"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" >
+
+        <EditText
+            android:id="@+id/txtDetail_PhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/btnPickFromContacts"
+            android:layout_toStartOf="@+id/btnPickFromContacts"
+            android:autoLink="phone"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:linksClickable="true"
+            android:maxLength="22" />
+
+        <Button
+            android:id="@+id/btnPickFromContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/pick" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reminder_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneLayoutDetail"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/set_reminder_button_label" />
+
+    <RelativeLayout
+        android:id="@+id/buttonslayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#555555" >
+
+        <ImageView
+            android:id="@+id/shadowListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <View
+            android:id="@+id/ViewColorPickerHelper"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dip"
+            android:layout_marginTop="7dip"
+            android:background="?android:attr/dividerVertical" />
+
+        <ImageButton
+            android:id="@+id/editTaskButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/ViewColorPickerHelper"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/edit_this_task"
+            android:longClickable="true"
+            android:src="@drawable/ic_action_content_edit" />
+
+        <ImageButton
+            android:id="@+id/sendToHistoryButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/ViewColorPickerHelper"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/aufgabe_erstellen"
+            android:longClickable="true"
+            android:src="@drawable/ic_action_task_done" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/layout/detailansicht.xml -->

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="saSortByThis">
+        <item>Nach Datum</item>
+        <item>Priorität Absteigend</item>
+        <item>Priorität Aufsteigend</item>
+    </string-array>
+    <!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/values/prio_werte_fuer_spinner.xml -->
+    <eat-comment/>
+    <string-array name="spinner_auswahl">
+        <item>Normal</item>
+        <item>Wichtig</item>
+        <item>Sehr wichtig</item>
+    </string-array>
+    <!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About</string>
+    <string name="action_lock">Lock out</string>
+    <string name="action_settings">Settings</string>
+    <string name="alertdialog_message_remove_all_tasks">This will erase all existing tasks, skipping history.</string>
+    <string name="alertdialog_title_are_u_sure">Are you sure?</string>
+    <string name="all">All</string>
+    <string name="already">I have already a password</string>
+    <string name="app_name">ACBST</string>
+    <string name="ask">Ask</string>
+    <string name="aufgabe_done">Aufgabe erledigt</string>
+    <string name="aufgabe_erstellen">New task</string>
+    <string name="beschreibung">Description</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="datum_auswaehlen_button_label">Datum auswählen</string>
+    <string name="db_clear">DB Clear</string>
+    <string name="db_read">DB Lesen</string>
+    <string name="delete">Discard</string>
+    <string name="deleted">deleted</string>
+    <string name="detail">Task detail</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="edit_task">Edit task</string>
+    <string name="edit_this_task">Edit this task</string>
+    <string name="einfuegen">Einfügen</string>
+    <string name="email_hint">Email</string>
+    <string name="email_hint_initial">Email (to reset password)</string>
+    <string name="error_title">Upps!</string>
+    <string name="fertig">Fertig</string>
+    <string name="forgot_pw">Forgot Password</string>
+    <string name="found">found</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history">History</string>
+    <string name="how_many_tasks">How many tasks did I accomplish from … </string>
+    <string name="login_error_message">Das Feld ist leer!</string>
+    <string name="never_mind">Never mind.</string>
+    <string name="no_tags_no_task">no tags no task</string>
+    <string name="no_tasks">no tasks! :) You are free!</string>
+    <string name="nothing_found">nope. Nothing found :(</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_number">Reference person</string>
+    <string name="pick">Pick</string>
+    <string name="pick_date">(pick date)</string>
+    <string name="prio_normal">Normal</string>
+    <string name="prio_sehr_wichtig">Sehr wichtig!</string>
+    <string name="prio_wichtig">Wichtig</string>
+    <string name="priority">Priority</string>
+    <string name="remove_all_tasks">Remove all tasks</string>
+    <string name="reset_pw_button_label">Reset password</string>
+    <string name="save">Speichern</string>
+    <string name="schlagworte">Tags or title</string>
+    <string name="search_for_title_or_description">Search for tags or description</string>
+    <string name="search_hint">Search Tasks</string>
+    <string name="search_title">Search</string>
+    <string name="setUpInitialPW_message">Thank your for installing our app! Please set up your initial password for the lock-unlock feature!</string>
+    <string name="set_reminder_button_label">Set Date &amp; Time</string>
+    <string name="show_statistcs_button_label">Statistik vom</string>
+    <string name="sign_up_button_label">Start!</string>
+    <string name="sign_up_error">Hoppla!</string>
+    <string name="sign_up_error_message">Das Feld ist leer!</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="sort">Sortieren</string>
+    <string name="speichern">Create</string>
+    <string name="statistics">Statistik</string>
+    <string name="statistics_error_pick_dates_first">\"Pick dates first you must.\"</string>
+    <string name="statistik">Statistik</string>
+    <string name="subtitle">WI-Projekt II</string>
+    <string name="task">task</string>
+    <string name="task_cap">Task</string>
+    <string name="tasks">tasks</string>
+    <string name="title_activity_calendar_test">CalendarTestActivity</string>
+    <string name="title_activity_forgot_pw">Password Resetting</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_unlock">LOCKED</string>
+    <string name="to_do">to do</string>
+    <string name="try_again">Try again</string>
+    <string name="turn_off_alarm_button_label">Cancel Alarm</string>
+    <string name="unlock_button_label">Unlock</string>
+    <string name="until">until</string>
+    <string name="username_hint">Username</string>
+    <string name="welcome_title">Welcome to %1$s!</string>
+    <string name="with_alarm_button_label">With Alarm</string>
+    <string name="without_alarm_button_label">Without Alarm</string>
+    <string name="wrong_password">Wrong password!</string>
+    <!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/normal</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+</resources>

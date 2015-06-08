@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfa9c"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtSchlagworte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:hint="@string/schlagworte"
+        android:inputType="textNoSuggestions|textLongMessage|textCapCharacters"
+        android:maxLength="29"
+        android:maxLines="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtBeschreibung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerPrioritaet"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:gravity="top|start"
+        android:hint="@string/beschreibung"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:maxLength="190"
+        android:maxLines="7"
+        android:minLines="3"
+        android:singleLine="true"
+        android:textSize="16sp" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerPrioritaet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSchlagworte"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" />
+
+    <RelativeLayout
+        android:id="@+id/phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBeschreibung"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" >
+
+        <EditText
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/btnPickFromContacts"
+            android:layout_toStartOf="@+id/btnPickFromContacts"
+            android:autoLink="phone"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:linksClickable="true"
+            android:maxLength="22" />
+
+        <Button
+            android:id="@+id/btnPickFromContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/pick" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reminder_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneLayout"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/set_reminder_button_label" />
+
+    <RelativeLayout
+        android:id="@+id/speichernLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#555555"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/shadowListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow" />
+
+        <Button
+            android:id="@+id/imgb_Fertig"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/aufgabe_done"
+            android:drawableLeft="@drawable/ic_action_navigation_check"
+            android:drawableStart="@drawable/ic_action_navigation_check"
+            android:longClickable="true"
+            android:onClick="aufgabeErstellen"
+            android:text="@string/speichern"
+            android:textColor="#dedede" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/layout/aufgabe_erstellen.xml -->

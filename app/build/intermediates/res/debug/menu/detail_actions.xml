@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="always"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/action_lock"
+        android:icon="@drawable/ic_action_action_lock_outline"
+        android:orderInCategory="5"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_lock"/>
+
+</menu><!-- From: file:/C:/Users/boghyon/AndroidStudioProjects/ACBST/app/src/main/res/menu/detail_actions.xml -->
